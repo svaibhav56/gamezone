@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color:  #393E46;
+}
+
+.homebtn{
+  width: 4%;
+  height: 4%;
+  float: left;
+  margin: 1% 1%;
+}
+
+#level-title {
+  margin:  1% 5%;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #4ECCA3;
+}
+
+.container {
+  display: inline-block;
+  width: 80%;
+  margin: auto 5% auto auto;
+}
+.row{
+  margin: auto ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-around;
+}
+
+img {
+  margin: 25px 30px;
+  height: 18%;
+  width: 18%;
+  border-radius: 10%;
+}
+img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.game-over {
+  background-color: purple;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+}
+
+footer {
+  margin-top: 3%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}

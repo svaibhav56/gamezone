@@ -1,0 +1,125 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.computer, .player {
+  display: inline-block;
+}
+
+body {
+  background-color: #393E46;
+  text-align: center;
+}
+
+.homebtn{
+  width: 4%;
+  height: 4%;
+  float: left;
+  margin: 1.5% 1%;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+  text-align: center;
+}
+
+p, label {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  display: inline-flex;
+  background-color: grey;
+  margin: 50px 20px;
+  padding: 10px 20px;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  border: 2px solid #444;
+  border-radius: 4px;
+  color: white;
+}
+
+.radio-toolbar label:hover {
+  background-color: #F6C6EA;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked+label {
+  background-color: #FAF4B7;
+  border-color: #4c4;
+  color: brown;
+}
+
+.main-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.right-container {
+  margin-right: 100px;
+}
+
+.right-container p {
+  margin-bottom: 0;
+}
+
+.btn {
+  background: #d9345a;
+  background-image: -webkit-linear-gradient(top, #d9345a, #b82b99);
+  background-image: -moz-linear-gradient(top, #d9345a, #b82b99);
+  background-image: -ms-linear-gradient(top, #d9345a, #b82b99);
+  background-image: -o-linear-gradient(top, #d9345a, #b82b99);
+  background-image: linear-gradient(to bottom, #d9345a, #b82b99);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  margin: 3% auto 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background: #faeb4b;
+  background-image: -webkit-linear-gradient(top, #faeb4b, #e3dc56);
+  background-image: -moz-linear-gradient(top, #faeb4b, #e3dc56);
+  background-image: -ms-linear-gradient(top, #faeb4b, #e3dc56);
+  background-image: -o-linear-gradient(top, #faeb4b, #e3dc56);
+  background-image: linear-gradient(to bottom, #faeb4b, #e3dc56);
+  margin: 3% auto 0;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+}
+
+footer {
+  margin-top: 3%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
